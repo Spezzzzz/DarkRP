@@ -118,7 +118,7 @@ DarkRP.createEntity("Drug lab", {
 })
 
 DarkRP.createEntity("Money printer", {
-	ent = "money_printer",
+	ent = "k_printers_t1",
 	model = "models/props_c17/consolebox01a.mdl",
 	price = 1000,
 	max = 2,
