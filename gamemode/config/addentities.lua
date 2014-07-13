@@ -117,11 +117,43 @@ DarkRP.createEntity("Drug lab", {
 	allowed = {TEAM_GANG, TEAM_MOB}
 })
 
-DarkRP.createEntity("Money printer", {
-	ent = "money_printer",
+DarkRP.createEntity("Money printer 1", {
+	ent = "k_printers_t1",
 	model = "models/props_c17/consolebox01a.mdl",
 	price = 1000,
-	max = 2,
+	max = 5,
+	cmd = "buymoneyprinter"
+})
+
+DarkRP.createEntity("Money printer 2", {
+	ent = "k_printers_t2",
+	model = "models/props_c17/consolebox01a.mdl",
+	price = 15999,
+	max = 5,
+	cmd = "buymoneyprinter"
+})	
+
+DarkRP.createEntity("Money printer 3", {
+	ent = "k_printers_t3",
+	model = "models/props_c17/consolebox01a.mdl",
+	price = 49999,
+	max = 5,
+	cmd = "buymoneyprinter"
+})
+
+DarkRP.createEntity("Money printer 4", {
+	ent = "k_printers_t4",
+	model = "models/props_c17/consolebox01a.mdl",
+	price = 159999,
+	max = 5,
+	cmd = "buymoneyprinter"
+})
+
+DarkRP.createEntity("Money printer 5", {
+	ent = "k_printers_t5",
+	model = "models/props_c17/consolebox01a.mdl",
+	price = 399999,
+	max = 5,
 	cmd = "buymoneyprinter"
 })
 
